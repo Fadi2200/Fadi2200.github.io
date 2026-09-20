@@ -16,6 +16,12 @@ All publications with links to full text. Filter by research theme, application 
 <script>
 const PUBS = [
   // ── 2026 ──────────────────────────────────────────────
+  {y:2026,t:"Meta-Learning for Data-Efficient Plant Growth Estimation via Vision Transformers and Fuzzy Clustering",
+   au:"Elahi S.H., Dewage R.C.H., Ullah H., Siddiqui M.S., Islam R., Al Machot F.",
+   v:"IEEE COINS 2026 · arXiv:2609.10749",
+   url:"https://arxiv.org/abs/2609.10749",
+   r:["trust","dl"],a:["agri"],tp:"C",award:"Best Runner-Up Paper Award"},
+
 {y:2026,t:"Simulating Moving-Boundary Flows with Neural Surrogates: Latent Dynamics vs Operator Learning",
    au:"Mian H.H., Al Machot F., Franchina N., Kouaissah O., Saeed M., Siddiqui M.S.",
    v:"40th ECMS International Conference on Modelling and Simulation · University of Agder (UiA) · June 2026",
