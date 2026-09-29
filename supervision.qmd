@@ -56,7 +56,7 @@ const STUDENTS = [
 
 {cat:"phd-co", name:"Trygve Grobstok Skjeseth",
  topic:"Optimisation of sewer infrastructures for nitrogen transformation: Reframing collection as the first treatment stage",
- inst:"", role:"", period:"Current"},
+ inst:"Norwegian University of Life Sciences (NMBU)", role:"", period:"Current"},
 
 
   // ── Postdocs ───────────────────────────────────────────
