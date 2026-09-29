@@ -54,6 +54,10 @@ const STUDENTS = [
    topic:"The Cognitive Stack: Bridging Topological Perception and Semantic Reasoning for Grounded Embodied Intelligence",
    inst:"University of Klagenfurt, Austria", role:"Co-supervisor", period:"Current"},
 
+{cat:"phd-co", name:"Trygve Grobstok Skjeseth",
+ topic:"Optimisation of sewer infrastructures for nitrogen transformation: Reframing collection as the first treatment stage",
+ inst:"", role:"", period:"Current"},
+
 
   // ── Postdocs ───────────────────────────────────────────
   // ── Visiting Researchers ───────────────────────────────
