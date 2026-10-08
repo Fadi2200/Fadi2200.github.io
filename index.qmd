@@ -86,14 +86,20 @@ I am Assoc. Prof. PD. Dr. techn. habil. **Fadi Al Machot**, specializing in Zero
 
 <div style="position:relative;padding-bottom:1.2rem;">
 <div style="position:absolute;left:-1.5rem;top:0.4rem;width:10px;height:10px;background:#2d7dd2;border:2px solid white;border-radius:50%;box-shadow:0 0 0 2px #2d7dd2;"></div>
+<div style="font-size:0.78rem;font-weight:700;color:#2d7dd2;text-transform:uppercase;letter-spacing:.05em;">2020</div>
+<div style="font-size:0.92rem;"><strong>Habilitation (PD) in Applied Computer Science</strong><br>University of Lübeck, Germany</div>
+</div>
+
+<div style="position:relative;padding-bottom:1.2rem;">
+<div style="position:absolute;left:-1.5rem;top:0.4rem;width:10px;height:10px;background:#2d7dd2;border:2px solid white;border-radius:50%;box-shadow:0 0 0 2px #2d7dd2;"></div>
 <div style="font-size:0.78rem;font-weight:700;color:#2d7dd2;text-transform:uppercase;letter-spacing:.05em;">2017 – 2021</div>
 <div style="font-size:0.92rem;"><strong>Senior Researcher</strong><br>Research Center Borstel – Leibniz Lung Center, Germany</div>
 </div>
 
 <div style="position:relative;padding-bottom:1.2rem;">
 <div style="position:absolute;left:-1.5rem;top:0.4rem;width:10px;height:10px;background:#2d7dd2;border:2px solid white;border-radius:50%;box-shadow:0 0 0 2px #2d7dd2;"></div>
-<div style="font-size:0.78rem;font-weight:700;color:#2d7dd2;text-transform:uppercase;letter-spacing:.05em;">2020</div>
-<div style="font-size:0.92rem;"><strong>Habilitation (PD) in Applied Computer Science</strong><br>University of Lübeck, Germany</div>
+<div style="font-size:0.78rem;font-weight:700;color:#2d7dd2;text-transform:uppercase;letter-spacing:.05em;">2013-2017</div>
+<div style="font-size:0.92rem;"><strong>Postdoctoral Fellowship in Applied Computer Science</strong><br>University of Klagenfurt, Austria</div>
 </div>
 
 <div style="position:relative;padding-bottom:1.2rem;">
