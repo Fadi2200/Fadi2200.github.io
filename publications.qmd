@@ -15,7 +15,19 @@ All publications with links to full text. Filter by research theme, application 
 
 <script>
 const PUBS = [
-  // ── 2026 ──────────────────────────────────────────────
+  // ── 2027 ──────────────────────────────────────────────
+  {y:2027,t:"Towards Continual Test-Time Adaptation of Vision-Language Models in Open-Vocabulary Semantic Segmentation",
+   au:"Doloriel C.T.C., Zhang Y., Maharana S.K., Siddiqui M.S., Stevik T.K., Al Machot F., Liland K.H., Ullah H.",
+   v:"WACV 2027 · arXiv:2608.29923",
+   url:"https://arxiv.org/abs/2608.29923",
+   r:["trust","dl"],a:[],tp:"C"},
+
+  {y:2026,t:"Learning Wake Perturbations of Floating Wind Turbines Using Motion-Conditioned Neural Network",
+   au:"Mian H.H., Al Machot F., Keprate A., Ullah H., Stoevesandt B., Siddiqui M.S.",
+   v:"SSRN Preprint",
+   url:"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7360264",
+   r:["eff","dl"],a:["energy"],tp:"J"},
+
   {y:2026,t:"Meta-Learning for Data-Efficient Plant Growth Estimation via Vision Transformers and Fuzzy Clustering",
    au:"Elahi S.H., Dewage R.C.H., Ullah H., Siddiqui M.S., Islam R., Al Machot F.",
    v:"IEEE COINS 2026 · arXiv:2609.10749",
