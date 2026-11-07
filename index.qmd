@@ -129,6 +129,12 @@ I am Assoc. Prof. PD. Dr. techn. habil. **Fadi Al Machot**, specializing in Zero
 <script>
 const NEWS = [
 
+{
+d:"07.11.2026",
+cat:"paper",
+t:"Paper submitted to <strong>WACV 2027 – 5th Workshop on Maritime Computer Vision (MaCVi)</strong>: <em>Continual Test-Time Adaptation via Entropy Sensitivity-Guidance in Strict Online Setting</em> has been submitted to the <strong>5th Workshop on Maritime Computer Vision (MaCVi)</strong>, co-located with the Winter Conference on Applications of Computer Vision (WACV 2027). The work investigates entropy sensitivity-guided continual test-time adaptation under strict online constraints. Thanks to all co-authors and collaborators for their contributions and support."
+},
+
  {d:"20.10.2026",cat:"paper",t:"Paper accepted at <strong>WACV 2027</strong>:<em>Towards Continual Test-Time Adaptation of Vision-Language Models in Open-Vocabulary Semantic Segmentation</em> has been accepted at the <strong>Winter Conference on Applications of Computer Vision (WACV 2027)</strong>. The work introduces a stabilization framework—Diversify, Anchor, and Filter—to mitigate class collapse and cross-modal feature drift during continual test-time adaptation under unlabeled distribution shifts. Thanks to all collaborators and PhD supervisors for their invaluable guidance and support. <a href='https://lnkd.in/e_nb7THH' target='_blank' rel='noopener noreferrer'>Preprint</a>."},
   {d:"10.10.2026",cat:"paper",t:"New preprint: <em>Learning Wake Perturbations of Floating Wind Turbines Using Motion-Conditioned Neural Network</em> — Mian H.H., <strong>Al Machot F.</strong>, Keprate A., Ullah H., Stoevesandt B., Siddiqui M.S. <a href='https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7360264' target='_blank'>SSRN →</a>"},
   {d:"20.09.2026",cat:"role",t:"Serving as reviewer for <strong>NeurIPS 2026 Workshop TS-LIMITS</strong>."},
