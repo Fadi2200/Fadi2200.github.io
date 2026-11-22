@@ -14,14 +14,16 @@ All publications with links to full text. Filter by research theme, application 
 <div id="pub-app"></div>
 
 <script>
+const PUBS = [
 
-  // ── 2026──────────────────────────────────────────────
-  {y:2026,t:"Towards Continual Test-Time Adaptation of Vision-Language Models in Open-Vocabulary Semantic Segmentation",
+  // ── 2027 ──────────────────────────────────────────────
+  {y:2027,t:"Towards Continual Test-Time Adaptation of Vision-Language Models in Open-Vocabulary Semantic Segmentation",
    au:"Doloriel C.T.C., Zhang Y., Maharana S.K., Siddiqui M.S., Stevik T.K., Al Machot F., Liland K.H., Ullah H.",
    v:"WACV 2027 · arXiv:2608.29923",
    url:"https://arxiv.org/abs/2608.29923",
    r:["trust","dl"],a:[],tp:"C"},
 
+  // ── 2026 ──────────────────────────────────────────────
   {y:2026,t:"Reliability-First Spatio-Temporal Graph Forecasting: A Survey and Traffic-Domain Benchmark for Calibration, Robustness, and Explanation Diagnostics",
    au:"Ahmad H.A., Mortazavi S.K., Benarbia T., Al Machot F., Kyamakya K.",
    v:"IEEE Access · IEEE",
@@ -30,8 +32,8 @@ All publications with links to full text. Filter by research theme, application 
 
   {y:2026,t:"Learning Wake Perturbations of Floating Wind Turbines Using Motion-Conditioned Neural Network",
    au:"Mian H.H., Al Machot F., Keprate A., Ullah H., Stoevesandt B., Siddiqui M.S.",
-   v:"SSRN Preprint",
-   url:"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7360264",
+   v:"Ocean Engineering · Vol. 369, p. 128771 · Pergamon",
+   url:"https://www.sciencedirect.com/science/article/pii/S0029801826046056",
    r:["eff","dl"],a:["energy"],tp:"J"},
 
   {y:2026,t:"Meta-Learning for Data-Efficient Plant Growth Estimation via Vision Transformers and Fuzzy Clustering",
@@ -40,13 +42,13 @@ All publications with links to full text. Filter by research theme, application 
    url:"https://arxiv.org/abs/2609.10749",
    r:["trust","dl"],a:["agri"],tp:"C",award:"Best Runner-Up Paper Award"},
 
-{y:2026,t:"Simulating Moving-Boundary Flows with Neural Surrogates: Latent Dynamics vs Operator Learning",
+  {y:2026,t:"Simulating Moving-Boundary Flows with Neural Surrogates: Latent Dynamics vs Operator Learning",
    au:"Mian H.H., Al Machot F., Franchina N., Kouaissah O., Saeed M., Siddiqui M.S.",
    v:"40th ECMS International Conference on Modelling and Simulation · University of Agder (UiA) · June 2026",
    url:"https://doi.org/10.7148/2026-0411",
    r:["eff","dl"],a:["energy"],tp:"C"},
 
-{y:2026,t:"CAST: Closed-form Analytic Semantic Transfer for Zero-Shot Classifier Extension",
+  {y:2026,t:"CAST: Closed-form Analytic Semantic Transfer for Zero-Shot Classifier Extension",
    au:"Heyden W., Al Machot F. et al.",
    v:"ECCV 2026 Workshop — CDEL",
    url:"#",
@@ -70,10 +72,10 @@ All publications with links to full text. Filter by research theme, application 
    url:"#",
    r:["trust"],a:[],tp:"C"},
 
-{y:2026,t:"Learning Across Formation Regimes: Surrogate Modelling for Solid–Electrolyte Interphase Growth and Battery Thermal Optimization",
+  {y:2026,t:"Learning Across Formation Regimes: Surrogate Modelling for Solid–Electrolyte Interphase Growth and Battery Thermal Optimization",
    au:"Dey A., Petit M., Boccardo G., Fleck N., Liu L., Horsch M.T., Al Machot F.",
    v:"40th ECMS International Conference on Modelling and Simulation · University of Agder (UiA) · June 2026",
-   url:"https://doi.org/10.7148/2026-0433 ",
+   url:"https://doi.org/10.7148/2026-0433",
    r:["eff"],a:["energy"],tp:"C",award:"Best Presentation Award"},
 
   {y:2026,t:"Genomic Prediction of Feed Efficiency in Boars by Deep Learning",
@@ -93,9 +95,10 @@ All publications with links to full text. Filter by research theme, application 
    url:"https://arxiv.org/abs/2512.08042",r:["trust","dl"],a:[],tp:"J"},
 
   {y:2026,t:"Risk-Aware Dynamic Ensembling for Time-Series Forecasting under Concept Drift: A Frugal Adaptation Framework",
-   au:"Ahmad H., Mortazavi S.K., Benarbia T., Al Machot F., Kyamakya K.",
-   v:"Procedia Computer Science",
-   url:"#",r:["eff"],a:[],tp:"C"},
+   au:"Ahmad H.A., Mortazavi S.K., Benarbia T., Al Machot F., Kyamakya K.",
+   v:"Procedia Computer Science · Vol. 280, pp. 1260–1265 · Elsevier",
+   url:"https://www.sciencedirect.com/science/article/pii/S1877050926011816",
+   r:["eff"],a:[],tp:"J"},
 
   {y:2026,t:"PG-NODE^TB: Physics-Guided Neural Ordinary Differential Equations for Tuberculosis Transmission Dynamics",
    au:"Kasereka S., Mafuta E., Al Machot F., Kyamakya K.",
@@ -186,6 +189,11 @@ All publications with links to full text. Filter by research theme, application 
    v:"DCLXVI 2025 · Springer Chapter",
    url:"https://arxiv.org/pdf/2412.06077",r:["trust"],a:["energy"],tp:"C"},
 
+  {y:2025,t:"Proceedings of NORA Annual Conference 2025",
+   au:"Halnes G., Javaid A., Solvang M., Al Machot F. et al.",
+   v:"Nordic Machine Intelligence",
+   url:"https://www.researchgate.net/publication/394285061",r:["dl"],a:[],tp:"C"},
+
   // ── 2024 ──────────────────────────────────────────────
   {y:2024,t:"Recent Advances in Machine Learning Techniques and Sensor Applications for Human Emotion, Activity Recognition and Support",
    au:"Kyamakya K., Al Machot F., Ullah H., Demrozi F.",
@@ -206,6 +214,11 @@ All publications with links to full text. Filter by research theme, application 
    au:"Deeb A., Salem M., Ibrahim A., Pichler J., Tkachov S., Karaj A., Al Machot F., Kyamakya K.",
    v:"IEEE Access",
    url:"https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10440102",r:["dl"],a:["auto"],tp:"J"},
+
+  {y:2024,t:"A Robust Automated Analog Circuits Classification Involving a GNN and Novel Data Augmentation Strategy",
+   au:"Kambale W.V., Salem M., Benarbia T., Al Machot F., Kyamakya K.",
+   v:"Symmetry",
+   url:"https://www.mdpi.com/2073-8994/16/2/241",r:["dl"],a:["auto"],tp:"J"},
 
   {y:2024,t:"Comprehensive Sensitivity Analysis Framework for Transfer Learning Performance Assessment for Time Series Forecasting",
    au:"Kambale W.V., Salem M., Benarbia T., Al Machot F., Kyamakya K.",
@@ -318,6 +331,11 @@ All publications with links to full text. Filter by research theme, application 
    v:"Conference Paper",
    url:"#",r:["eff"],a:[],tp:"C"},
 
+  {y:2023,t:"Ensemble Transfer Learning for Time Series Forecasting: A Sensitivity Analysis Framework for a Shallow Neural Network",
+   au:"Kambale W.V., Deeb A., Benarbia T., Al Machot F., Kyamakya K.",
+   v:"IST-Africa Conference · Tshwane",
+   url:"#",r:["eff"],a:[],tp:"C"},
+
   {y:2023,t:"A Boxplot Metadata Configuration Impact on Time Series Forecasting and Transfer Learning",
    au:"Kambale W.V., Deeb A., Benarbia T., Al Machot F., Kyamakya K.",
    v:"Conference Paper",
@@ -336,6 +354,11 @@ All publications with links to full text. Filter by research theme, application 
   {y:2023,t:"A Comprehensive Generalization of a GAT-Based System Towards Real IP Analog-Mixed-Signal AMS Schematics Structure Recognition",
    au:"Deeb A., Salem M., Ibrahim A., Al Machot F., Kyamakya K.",
    v:"Conference Paper",
+   url:"#",r:["dl"],a:["auto"],tp:"C"},
+
+  {y:2023,t:"A Comprehensive GAT-Based System for Real IP Analog-Mixed-Signal AMS Schematics Structure Recognition (IST-Africa version)",
+   au:"Salem M., Deeb A., Ibrahim A., Al Machot F., Kyamakya K.",
+   v:"IST-Africa Conference · Tshwane",
    url:"#",r:["dl"],a:["auto"],tp:"C"},
 
   {y:2023,t:"The Past and Future of Lipidomics Bioinformatics",
@@ -532,6 +555,12 @@ All publications with links to full text. Filter by research theme, application 
    v:"7th GI Workshop Autonomous Systems",
    url:"#",r:["dl"],a:["health"],tp:"C"},
 
+  // ── 2012 ──────────────────────────────────────────────
+  {y:2012,t:"A Novel Real-Time Emotion Detection System for Advanced Driver Assistance Systems",
+   au:"Al Machot F., Haj Mosa A., Fasih A., Schwarzlmüller C., Ali M., Kyamakya K.",
+   v:"Autonomous Systems: Developments and Trends · Springer",
+   url:"#",r:["dl"],a:["auto","health"],tp:"Ch"},
+
   // ── 2011 ──────────────────────────────────────────────
   {y:2011,t:"Real-Time Complex Event Detection Based on Answer Set Programming",
    au:"Al Machot F., Kyamakya K.",
@@ -588,38 +617,6 @@ All publications with links to full text. Filter by research theme, application 
    au:"Fasih A., Schwarzlmüller C., Kyamakya K., Al Machot F.",
    v:"International Journal of Signal and Image Processing",
    url:"#",r:["eff","dl"],a:["auto"],tp:"J"},
-
-
-  // ── Additional papers from ResearchGate ──────────────────────
-  {y:2024,t:"A Robust Automated Analog Circuits Classification Involving a GNN and Novel Data Augmentation Strategy",
-   au:"Kambale W.V., Salem M., Benarbia T., Al Machot F., Kyamakya K.",
-   v:"Symmetry",
-   url:"https://www.mdpi.com/2073-8994/16/2/241",r:["dl"],a:["auto"],tp:"J"},
-
-  {y:2023,t:"Ensemble Transfer Learning for Time Series Forecasting: A Sensitivity Analysis Framework for a Shallow Neural Network",
-   au:"Kambale W.V., Deeb A., Benarbia T., Al Machot F., Kyamakya K.",
-   v:"IST-Africa Conference · Tshwane",
-   url:"#",r:["eff"],a:[],tp:"C"},
-
-  {y:2012,t:"A Novel Real-Time Emotion Detection System for Advanced Driver Assistance Systems",
-   au:"Al Machot F., Haj Mosa A., Fasih A., Schwarzlmüller C., Ali M., Kyamakya K.",
-   v:"Autonomous Systems: Developments and Trends · Springer",
-   url:"#",r:["dl"],a:["auto","health"],tp:"Ch"},
-
-  {y:2025,t:"Proceedings of NORA Annual Conference 2025",
-   au:"Halnes G., Javaid A., Solvang M., Al Machot F. et al.",
-   v:"Nordic Machine Intelligence",
-   url:"https://www.researchgate.net/publication/394285061",r:["dl"],a:[],tp:"C"},
-
-  {y:2024,t:"Towards Explainable Ensemble Learning: Adaptive Feature Space Pruning and Optimized Classifier Selection",
-   au:"Uzair M., Jan Z., Khan S.D., Al Machot F., Ullah H.",
-   v:"DCLXVI International Workshop · Kaiserslautern",
-   url:"#",r:["trust"],a:[],tp:"C"},
-
-  {y:2023,t:"A Comprehensive GAT-Based System for Real IP Analog-Mixed-Signal AMS Schematics Structure Recognition (IST-Africa version)",
-   au:"Salem M., Deeb A., Ibrahim A., Al Machot F., Kyamakya K.",
-   v:"IST-Africa Conference · Tshwane",
-   url:"#",r:["dl"],a:["auto"],tp:"C"},
 
   {y:2010,t:"Camera-Based System for Tracking and Position Estimation of Humans",
    au:"Hartmann R., Al Machot F., Mahr P., Bobda C.",
