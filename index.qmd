@@ -128,6 +128,7 @@ I am Assoc. Prof. PD. Dr. techn. habil. **Fadi Al Machot**, specializing in Zero
 
 <script>
 const NEWS = [
+  {d:"25.11.2026",cat:"paper",t:"<span style='font-size:9px;padding:1px 6px;border-radius:3px;font-weight:600;background:#e8f1fb;color:#0c447c;margin-right:4px;'>NEW</span> Paper accepted at <strong>DATE 2027</strong> (Design, Automation and Test in Europe Conference, Dresden): <em>A Clinically-Grounded, Hardware-Efficient Framework for Wrist-Worn Recognition of Activities of Daily Living</em> — Demrozi F., <strong>Al Machot F.</strong>"},
 
 {
 d:"07.11.2026",
