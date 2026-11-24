@@ -17,6 +17,11 @@ All publications with links to full text. Filter by research theme, application 
 const PUBS = [
 
   // ── 2027 ──────────────────────────────────────────────
+  {y:2027,t:"A Clinically-Grounded, Hardware-Efficient Framework for Wrist-Worn Recognition of Activities of Daily Living",
+   au:"Demrozi F., Al Machot F.",
+   v:"Design, Automation and Test in Europe Conference (DATE 2027) · Dresden, Germany",
+   url:"#",
+   r:["eff","dl"],a:["health"],tp:"C"},
   {y:2027,t:"Towards Continual Test-Time Adaptation of Vision-Language Models in Open-Vocabulary Semantic Segmentation",
    au:"Doloriel C.T.C., Zhang Y., Maharana S.K., Siddiqui M.S., Stevik T.K., Al Machot F., Liland K.H., Ullah H.",
    v:"WACV 2027 · arXiv:2608.29923",
